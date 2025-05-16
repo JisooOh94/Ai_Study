@@ -1,1 +1,2 @@
-// ...existing content of application.yml...
+server:
+  port: 8081
