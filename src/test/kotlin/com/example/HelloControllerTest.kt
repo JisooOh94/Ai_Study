@@ -1,4 +1,4 @@
-import com.example.HelloController
+import com.example.controller.HelloController
 import kotlinx.coroutines.runBlocking
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired

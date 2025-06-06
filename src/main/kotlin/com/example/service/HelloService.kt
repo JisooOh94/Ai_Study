@@ -1,7 +1,5 @@
-package com.example
+package com.example.service
 
-import com.linecorp.armeria.server.annotation.Get
-import com.linecorp.armeria.server.annotation.PathPrefix
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 import org.springframework.stereotype.Service

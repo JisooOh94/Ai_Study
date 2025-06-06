@@ -1,13 +1,10 @@
 package com.example
 
-import com.linecorp.armeria.server.Server
+import com.example.controller.HelloController
 import com.linecorp.armeria.spring.ArmeriaServerConfigurator
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Bean
-import java.io.*
-import java.security.MessageDigest
-import java.util.Base64
 
 @SpringBootApplication
 class Main {
