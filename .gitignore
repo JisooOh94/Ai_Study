@@ -1,0 +1,25 @@
+# Ignore all files by default
+*
+
+# Allow specific files and directories
+!.gitignore
+!build.gradle.kts
+!gradle.properties
+!gradlew
+!gradlew.bat
+!settings.gradle.kts
+!application.yml
+
+# modules
+!api/
+!api/**
+
+# Ignore build and bin directories
+build/
+bin/
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
